@@ -1,32 +1,8 @@
-# iTask
-# 📝 iTask - Todo App with React 🚀
+# React + Vite
 
-## Description
-**iTask** is a simple and efficient Todo App built using **React** and **TailwindCSS**.  
-It allows users to **add, edit, delete, mark as complete, and filter tasks**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🔥 Features
-- ✅ Add and manage your tasks efficiently
-- ✏️ Edit existing tasks
-- 🗑️ Delete tasks
-- 📌 Mark tasks as completed
-- 🎭 Toggle visibility of completed tasks
-- 📂 Stores tasks in **LocalStorage** for persistence
+Currently, two official plugins are available:
 
-## 🛠 Tech Stack
-- ⚛️ React.js
-- 🎨 TailwindCSS
-- 🗄 LocalStorage (for persistence)
-- 🔗 React Icons
-
-## 🚀 Getting Started
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/iTask-TodoApp.git
-cd iTask-TodoApp
-
-2️⃣ Install Dependencies
-npm install
-
-3️⃣ Start the Development Server
-npm run dev
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
